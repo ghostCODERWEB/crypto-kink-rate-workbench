@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-kink-rate-workbench"
+version = "0.1.0"
+description = "Evaluate piecewise borrow rates and reserve-adjusted supply yields across utilization scenarios."
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+crypto-kink-rate-workbench = "cryptolab:main"
+
+[tool.setuptools.packages.find]
+include = ["cryptolab*"]
+
+[tool.setuptools.package-data]
+cryptolab = ["web/*"]

@@ -1,0 +1,24 @@
+{
+  "curve": [
+    {
+      "borrow_apr": "0.02",
+      "reserve_apr": "0",
+      "supply_apr": "0",
+      "utilization": "0"
+    },
+    {
+      "borrow_apr": "0.1",
+      "reserve_apr": "0.008",
+      "supply_apr": "0.072",
+      "utilization": "0.8"
+    },
+    {
+      "borrow_apr": "0.5",
+      "reserve_apr": "0.05",
+      "supply_apr": "0.45",
+      "utilization": "1"
+    }
+  ],
+  "maximum_rate": "0.5",
+  "rate_at_kink": "0.1"
+}

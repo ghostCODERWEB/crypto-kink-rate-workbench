@@ -1,0 +1,12 @@
+{
+  "base": "0.02",
+  "slope_low": "0.08",
+  "slope_high": "0.4",
+  "kink": "0.8",
+  "reserve_factor": "0.1",
+  "utilizations": [
+    0,
+    "0.8",
+    1
+  ]
+}
